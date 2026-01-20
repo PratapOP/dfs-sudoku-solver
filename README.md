@@ -166,13 +166,3 @@ Developed as an academic and learning-focused project to demonstrate algorithmic
 This project is open for educational use.
 
 ---
-
-## ✅ Faculty Explanation
-
-> This project visualizes DFS with backtracking for Sudoku solving and explains each decision step-by-step using a Flask-based backend.
-
----
-
-## 🔥 LinkedIn Post
-
-> Built an interactive Sudoku Solver using DFS & Backtracking with real-time visualization and educational explanations using Flask and vanilla frontend technologies.
