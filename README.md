@@ -89,7 +89,7 @@ dfs-sudoku-solver/
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/dfs-sudoku-solver.git
+git clone https://github.com/PratapOP/dfs-sudoku-solver.git
 cd dfs-sudoku-solver
 ```
 
@@ -100,14 +100,8 @@ python -m venv venv
 
 **Activate the virtual environment:**
 
-**Windows:**
 ```bash
 venv\Scripts\activate
-```
-
-**Mac / Linux:**
-```bash
-source venv/bin/activate
 ```
 
 ### Install Dependencies
