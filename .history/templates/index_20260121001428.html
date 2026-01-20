@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DFS Sudoku Solver | Educational Visualizer</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+    <header>
+        <h1>🧩 DFS Sudoku Solver</h1>
+        <p>Depth First Search with Backtracking — Visualized & Explained</p>
+    </header>
+
+    <main class="content">
+        <section class="board-card">
+            <div class="grid" id="grid"></div>
+
+            <div class="controls">
+                <button class="primary" onclick="solve()">Solve</button>
+                <button class="secondary" onclick="clearGrid()">Clear</button>
+
+                <label class="toggle">
+                    <input type="checkbox" id="eduMode" checked>
+                    <span>Educational Mode</span>
+                </label>
+            </div>
+        </section>
+
+        <section class="info-card">
+            <h3>Algorithm Steps</h3>
+            <div class="log" id="log"></div>
+        </section>
+    </main>
+
+    <footer>
+        <span>Built with Flask • DFS • Backtracking</span>
+    </footer>
+</div>
+
+<script src="/static/js/script.js"></script>
+</body>
+</html>

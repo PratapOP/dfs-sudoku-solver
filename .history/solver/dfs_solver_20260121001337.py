@@ -29,13 +29,9 @@ def is_valid(grid, row, col, num):
 
 def solve_sudoku(grid, educational_mode=True):
     steps = []
-    MAX_STEPS = 5000  # 🔒 SAFETY LIMIT
     board = copy.deepcopy(grid)
 
     def dfs():
-        if len(steps) >= MAX_STEPS:
-            return False
-
         empty = find_empty_cell(board)
         if not empty:
             return True
